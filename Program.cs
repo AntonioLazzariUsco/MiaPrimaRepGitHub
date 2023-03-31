@@ -2,7 +2,7 @@
 using ConsoleApp1.Models;
 
 Console.WriteLine("Hello, World!");
-
 var person = new Person { Id = 1, Name = "Mario Rossi", Age = 35 };
-
-Console.WriteLine($"Ciao, {person.Name}");
+var person2 = new Person { Id = 1, Name = "Luigi Bianchi", Age = 45 };
+Console.WriteLine($"Ciao, {person2.Name}");
+Console.WriteLine($"Buonasera , {person.Name}");
